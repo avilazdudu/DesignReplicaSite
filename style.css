@@ -2,3 +2,17 @@
 header nav a{
     font-family: "Madimi One", sans-serif;
 }
+header{
+    background-image: url('img/backgroundHeader.jpg');
+}
+.topo-header{
+    position: fixed;
+    background-color: black;
+}
+.texto-proximo-jogo{
+    font-family: "Madimi One", sans-serif;
+}
+.proximo-jogo{
+    position: absolute;
+    bottom: 10px;
+}
