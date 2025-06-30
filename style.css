@@ -1,18 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header nav a{
     font-family: "Madimi One", sans-serif;
 }
 header{
     background-image: url('img/backgroundHeader.jpg');
+    background-position: center;
+    background-size: cover;
 }
 .topo-header{
     position: fixed;
     background-color: black;
 }
+.proximo-jogo{
+    position: relative;
+    bottom: -12.5rem;
+}
 .texto-proximo-jogo{
     font-family: "Madimi One", sans-serif;
 }
-.proximo-jogo{
-    position: absolute;
-    bottom: 10px;
+.carrosel-noticias-img{
+    width: 20rem;
+    height: 15rem;
+    background-size: cover;
+    border-radius: 1.2rem;
+    box-shadow: inset 10px 10px 100px black,
+              inset -10px -10px 100px black;
+}
+.carrosel-noticias-img-principal{
+    width: 22rem;
+    height: 18rem;
+    background-size: cover;
+    border-radius: 1.2rem;
+    box-shadow: inset 10px 10px 100px black,
+              inset -10px -10px 100px black;
+}
+.carrosel-noticias-img span{
+    font-family: "Jersey 25", sans-serif;
+}
+.carrosel-noticias-img h6{
+    font-family: "Jersey 25", sans-serif;
+    position: relative;
+    top:-9.7rem;
+    left: 11.5rem;
+}
+.carrosel-noticias-img-principal span{
+    font-family: "Jersey 25", sans-serif;
+}
+.carrosel-noticias-img-principal h6{
+    font-family: "Jersey 25", sans-serif;
+    position: relative;
+    top:-12.2rem;
+    left: 12.5rem;
+}
+main section section div h6{
+    width: 10rem;
 }
