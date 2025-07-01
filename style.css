@@ -33,12 +33,13 @@ header{
               inset -10px -10px 100px black;
 }
 .carrosel-noticias-img-principal{
-    width: 22rem;
+    width: 23.5rem;
     height: 18rem;
     background-size: cover;
     border-radius: 1.2rem;
     box-shadow: inset 10px 10px 100px black,
               inset -10px -10px 100px black;
+    z-index: 1;
 }
 .carrosel-noticias-img span{
     font-family: "Jersey 25", sans-serif;
@@ -46,7 +47,7 @@ header{
 .carrosel-noticias-img h6{
     font-family: "Jersey 25", sans-serif;
     position: relative;
-    top:-9.7rem;
+    top:-10.7rem;
     left: 11.5rem;
 }
 .carrosel-noticias-img-principal span{
@@ -55,9 +56,75 @@ header{
 .carrosel-noticias-img-principal h6{
     font-family: "Jersey 25", sans-serif;
     position: relative;
-    top:-12.2rem;
-    left: 12.5rem;
+    top:-12.1rem;
+    left: 14.5rem;
 }
 main section section div h6{
     width: 10rem;
+}
+.bolinha{
+    border-radius: 33rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: black;
+}
+.setas{
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.subtitulo{
+    font-family: 'Madimi One', sans-serif;
+    color: black;
+    font-size: 3rem;
+}
+.cartao-jogador{
+    width: 16rem;
+    height: 20rem;
+    background-size: contain;
+    border-radius: 1.2rem;
+    box-shadow: inset 0px -80px 90px rgba(0, 0, 0,0.8);
+}
+.numero-jogador{
+    position: relative;
+    left: 13rem;
+    color: white;
+    font-family: 'Jersey 25', sans-serif;
+    font-size: 2rem;
+}
+.primeiro-nome-jogador{
+    position: relative;
+    top: 14rem;
+    right: 0.5rem;
+    color: white;
+    font-family: 'Jersey 25', sans-serif;
+}
+.nome-jogador{ 
+    position: relative;
+    top: 15.5rem;
+    right: 3.7rem;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Jersey 25', sans-serif;
+}
+.posicao-jogador{
+    position: relative;
+    top: 14.5rem;
+    left: 1.8rem;
+    color: #7B7A7A;
+    font-family: 'Jersey 25', sans-serif;
+}
+#jemersonpnc{
+    position: relative;
+    top: 16.5rem;
+    right: 10rem;
+    color: #7B7A7A;
+    font-family: 'Jersey 25', sans-serif;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+}
+.logos{
+    height: 90px;
 }
